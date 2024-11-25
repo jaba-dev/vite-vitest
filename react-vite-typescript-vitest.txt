@@ -1,0 +1,6 @@
+installation:
+1. npm i -D vitest
+2.inside scripts add:   "test": "vitest"
+3. npm i -D @testing-library/react @testing-library/jest-dom jsdom
+4. modify vite.config.ts as well as tsconfig.app.json:
+5. inisde src create __test__ folder and file called setup.ts 
